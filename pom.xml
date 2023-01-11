@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.redhat.developer.demos</groupId>
-  <artifactId>kafka-spammer</artifactId>
+  <artifactId>kafka-messenger</artifactId>
   <version>1.0.2</version>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
@@ -11,6 +11,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <quarkus.version>2.4.1.Final</quarkus.version>
     <surefire-plugin.version>2.22.0</surefire-plugin.version>
+    <quarkus.package.type>uber-jar</quarkus.package.type>
   </properties>
   <dependencyManagement>
     <dependencies>
